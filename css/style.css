@@ -2,6 +2,7 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 .btn {
     background-color: #144549;
     border: none;
+    padding: 5px 15px;
 }
 /*********************NAVBAR********************/
 .bg-container {
@@ -62,10 +63,20 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
     margin: 25px;
     border-radius: 12px;
 }
-.form-select {border: none;}
-.form-date {padding: 15px;}
+.form-select {border: none;padding: 15px 25px;}
+.form-date {padding: 15px 25px; }
 input[type=date] {margin-top: 10px; border:none;}
-input[type=date]:active {outline: none;}
+
+.form-range {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 15px 25px;
+}
+input[type=number] {
+    border: none;
+    width: 20%;
+}
 
 
 
