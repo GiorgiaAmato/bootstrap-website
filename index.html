@@ -92,7 +92,7 @@
                                 <span class="material-icons-outlined md-dark">people</span>
                                 <p class="card-text">34 persone hanno già prenotato</p>
                             </div>
-                            <a href="#" class="btn btn-primary">Scopri di più</a>
+                            <a href="#" class="btn btn-success">Scopri di più</a>
                         </div>
                     </div>
                 </div>
@@ -103,9 +103,10 @@
                         <div class="box-shadow">
                             <div class="form-container">
                                 <select class="form-select" aria-label="Select location">
-                                    <option selected>Location <span class="material-icons-outlined md-dark">place</span></option>
+                                    <option selected>Location <span class="material-icons-outlined">flight</span></option> 
                                     <option value="1">Europa</option>
                                     <option value="2">Africa</option>
+                                    <option value="3">America</option>
                                     <option value="3">Asia</option>
                                 </select>
                                 <div class="form-date">
@@ -118,6 +119,16 @@
                                     <label class="active" for="dateStandard">Data ritorno</label>
                                     <input type="date" id="dateStandard" name="dateStandard">
                                 </div>
+                                <div class="form-range">
+                                    <label for="count"><span class="material-icons-outlined">person</span>Ospiti</label>
+                                    <div class="count">
+                                        <input type="number" class="count" name="count" value="2">Adulti
+                                    </div>
+                                    <div class="count">
+                                        <input type="number" class="count" name="count" value="0">Bambini
+                                    </div>
+                                </div>
+                                <button class="btn btn-success" type="submit">Contattaci</button>
                             </div>
                         </div>
                     </form>
