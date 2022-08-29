@@ -1,0 +1,14 @@
+
+.bg-container {
+    height: 90vh;
+    background-image: url(/img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: ;
+    width: 100%;
+}
