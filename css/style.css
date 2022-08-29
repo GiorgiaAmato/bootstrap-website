@@ -2,8 +2,11 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 .btn {
     background-color: #144549;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
 }
+.btn:hover {background-color: #C68764;}
+
+
 /*********************NAVBAR********************/
 .bg-container {
     height: auto;
@@ -18,6 +21,12 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
     border-radius: 12px;
     padding: 5px 20px;
     width: auto;
+    margin-right: 50px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -63,9 +72,9 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
     margin: 25px;
     border-radius: 12px;
 }
-.form-select {border: none;padding: 15px 25px;}
+.form-select {border: none; padding: 15px 25px; }
 .form-date {padding: 15px 25px; }
-input[type=date] {margin-top: 10px; border:none;}
+input[type=date] {margin-top: 15px; border:none;}
 
 .form-range {
     display: flex;
@@ -77,6 +86,8 @@ input[type=number] {
     border: none;
     width: 20%;
 }
+
+.btn-container {display: flex;align-items: center; padding: 15px 25px;}
 
 
 
