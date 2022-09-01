@@ -91,6 +91,9 @@ input[type=number] {
 
 
 /**************CARD PROMO****************/
+.promo h2 {
+    color: #C68764;
+}
 
 .card-promo-container {
     display: flex;
@@ -122,7 +125,6 @@ input[type=number] {
     justify-content: space-between;
     align-items: center;
 }
-
 
 
 
