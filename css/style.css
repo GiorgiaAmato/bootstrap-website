@@ -90,13 +90,38 @@ input[type=number] {
 .btn-container {display: flex;align-items: center; padding: 15px 25px;}
 
 
+/**************CARD PROMO****************/
 
+.card-promo-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.card-promo {
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 10px 0px #D8D8D8;
+    -moz-box-shadow: 5px 5px 10px 0px #D8D8D8;
+    -o-box-shadow: 5px 5px 10px 0px #D8D8D8;
+    box-shadow: 5px 5px 10px 0px #D8D8D8;
+    margin: 25px 25px 25px 0;
+}
 
+.card-promo img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 
+.card-body {
+    margin: 0;
+    padding: 15px 15px 20px 15px;
+}
 
-
-
+.promo-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
