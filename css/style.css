@@ -144,8 +144,7 @@ h2 {
 .card-cat img {border-radius: 20px;}
 
 
-
-
+/**************CARD VANTAGGI****************/
 
 
 
@@ -193,4 +192,7 @@ h2 {
 
 .material-icons.md-dark {color: rgba(0, 0, 0, 0.54);}
 
-
+.material-icons-outlined.icon-vantaggi {
+    display: block;
+    font-size: 100px;
+}
