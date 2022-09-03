@@ -44,6 +44,7 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 }
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
 }
 .card {
     padding: 20px;
@@ -103,9 +104,6 @@ h2 {
 
 .card-promo {
     border-radius: 20px;
-    -webkit-box-shadow: 5px 5px 10px 0px #D8D8D8;
-    -moz-box-shadow: 5px 5px 10px 0px #D8D8D8;
-    -o-box-shadow: 5px 5px 10px 0px #D8D8D8;
     box-shadow: 5px 5px 10px 0px #D8D8D8;
     margin: 25px 25px 25px 0;
 }
@@ -118,6 +116,7 @@ h2 {
 .card-body {
     margin: 0;
     padding: 15px 15px 20px 15px;
+    
 }
 
 .promo-price {
@@ -131,12 +130,14 @@ h2 {
 .card-categories-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-cat {
     border: none;
     box-shadow: 5px 5px 10px 0px #D8D8D8;
     margin-right: 20px;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
@@ -149,7 +150,10 @@ h2 {
 
 
 
-
+/**************FOOTER****************/
+footer {
+    background-color: #144549;
+}
 
 
 
@@ -195,4 +199,5 @@ h2 {
 .material-icons-outlined.icon-vantaggi {
     display: block;
     font-size: 100px;
+    text-align: center;
 }
