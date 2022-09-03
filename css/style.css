@@ -46,11 +46,15 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     padding: 20px;
     margin-right: 30px;
     border-radius: 20px;
+    border: none;
 }
+.card img {border-radius: 12px;}
+
 .card p {font-size: 14px;}
 .info {
     display: flex; 
@@ -115,7 +119,7 @@ h2 {
 
 .card-body {
     margin: 0;
-    padding: 15px 15px 20px 15px;
+    padding: 20px
     
 }
 
@@ -155,6 +159,14 @@ footer {
     background-color: #144549;
 }
 
+.footer {padding: 50px 0;}
+
+.note-legali {
+    display: flex;
+    justify-content: space-between;
+}
+.note-legali li {list-style-type: none;}
+.note-legali li a {text-decoration: none; color: #D8D8D8;}
 
 
 
