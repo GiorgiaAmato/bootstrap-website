@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {font-family: 'Montserrat Alternates', sans-serif;}
+
 .btn {
     background-color: #144549;
     border: none;
@@ -6,6 +13,7 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 }
 .btn:hover {background-color: #C68764;}
 
+p {margin: 0;}
 
 /*********************NAVBAR********************/
 .bg-container {
@@ -89,7 +97,6 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 .form-select {
     border-radius: 0px;
     border: none;
-    border-right: 2px solid #F1C6AD;
     padding: 15px 25px;
 }
 
@@ -102,7 +109,10 @@ body {font-family: 'Montserrat Alternates', sans-serif;}
 .form-date {
     padding: 15px 20px;
     border-right: 2px solid #F1C6AD;
+    
 }
+
+.form-date:first-child {border-left: 2px solid #F1C6AD;}
 
 input[type=date] {
     margin-top: 15px;
@@ -113,14 +123,14 @@ input[type=date] {
 .form-range {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: auto;
     padding: 15px 25px;
 }
 
 .form-range label {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .form-range-container{
@@ -129,11 +139,10 @@ input[type=date] {
 
 .count {
     display: flex;
-    flex-direction: row;
-    border: 1px solid red;
+    align-items: center;
 }
 input[type=number] {
-    width: 30%;
+    width: 35%;
     border: 2px solid #144549;
     padding: 5px;
     border-radius: 8px;
@@ -237,24 +246,30 @@ footer {
         text-align: center;
         margin-bottom: 25px;
     }
-    .card {margin-bottom: 20px; }
-    .cards-container {justify-content: center;}
+    .card {margin-right: 0; margin-bottom: 20px; }
+    .cards-container {flex-direction: column; align-items: center; }
 
     /**************SEARCH BAR****************/
-    .form-container {display: block;}
+    .form-container {flex-direction: column; width: 100%;}
     .form-select {padding: 15px; border-right:none; border-bottom: 2px solid #F1C6AD;}
-    .form-date {border-right: none; border-bottom: 2px solid #F1C6AD; padding: 15px;}
-
+    .form-date-container {flex-direction: column; align-items: flex-start;}
+    .form-date {width: 100%; border: none; border-bottom: 2px solid #F1C6AD;}
+    .form-date:first-child {border-left: none;}
     input[type=date] {
+        width: 100%;
         border: 2px solid #144549;
         border-radius: 8px;
         padding: 5px;
     }
 
-    .count {width: 45%; margin-bottom: 5px;}
-    input[type=number] {
-        width: 40%;
-    }
+    .form-range-container {flex-direction: column; width: 100%;}
+    .count {margin-bottom: 5px;}
+    input[type=number] { width: 30%; }
+
+    .btn-container {justify-content: center; }
+
+    /**************PROMO****************/
+    .card-promo {margin-right: 0;}
 
     /**************FOOTER****************/
     .note-legali {
