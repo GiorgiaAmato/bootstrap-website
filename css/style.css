@@ -108,6 +108,8 @@ input[type=date] {
     margin-top: 15px;
     border: none;
 }
+
+
 .form-range {
     display: flex;
     flex-direction: column;
@@ -120,19 +122,22 @@ input[type=date] {
 .form-range label {
     margin-bottom: 10px;
 }
-.count {
-    width: 70%;
+
+.form-range-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
 }
 input[type=number] {
-    border: none;
-    width: 35%;
+    width: 30%;
     border: 2px solid #144549;
     padding: 5px;
     border-radius: 8px;
-    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 .btn-container {display: flex;align-items: center; padding: 15px 25px;}
