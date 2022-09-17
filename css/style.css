@@ -179,17 +179,13 @@ h2 {
 .card-cat img {border-radius: 20px;}
 
 
-/**************CARD VANTAGGI****************/
-
-
-
 
 /**************FOOTER****************/
 footer {
     background-color: #144549;
 }
 
-.footer {padding: 50px 0;}
+.footer {padding: 25px 0;}
 
 .note-legali {
     display: flex;
