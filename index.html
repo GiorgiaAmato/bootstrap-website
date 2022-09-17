@@ -101,23 +101,29 @@
                     <form>
                         <div class="box-shadow">
                             <div class="form-container">
-                                <select class="form-select" aria-label="Select location">
-                                    <option selected>Location</option> 
-                                    <option value="1">Europa</option>
-                                    <option value="2">Africa</option>
-                                    <option value="3">America</option>
-                                    <option value="3">Asia</option>
-                                </select>
-                                <div class="form-date">
-                                    <span class="material-icons-outlined">calendar_month</span>
-                                    <label class="active" for="dateStandard">Data partenza</label>
-                                    <input type="date" id="dateStandard" name="dateStandard">
+                                <div class="form-select-container">
+                                    <select class="form-select" aria-label="Select location">
+                                        <option selected>Location</option> 
+                                        <option value="1">Europa</option>
+                                        <option value="2">Africa</option>
+                                        <option value="3">America</option>
+                                        <option value="3">Asia</option>
+                                    </select>
                                 </div>
-                                <div class="form-date">
-                                    <span class="material-icons-outlined">calendar_month</span>
-                                    <label class="active" for="dateStandard">Data ritorno</label>
-                                    <input type="date" id="dateStandard" name="dateStandard">
+                                
+                                <div class="form-date-container">
+                                    <div class="form-date">
+                                        <span class="material-icons-outlined">calendar_month</span>
+                                        <label class="active" for="dateStandard">Data partenza</label>
+                                        <input type="date" id="dateStandard" name="dateStandard">
+                                    </div>
+                                    <div class="form-date">
+                                        <span class="material-icons-outlined">calendar_month</span>
+                                        <label class="active" for="dateStandard">Data ritorno</label>
+                                        <input type="date" id="dateStandard" name="dateStandard">
+                                    </div>
                                 </div>
+
                                 <div class="form-range">
                                     <label for="count"><span class="material-icons-outlined">person</span>Ospiti</label>
                                     <div class="count">
@@ -140,7 +146,7 @@
 
     <!-------------------PROMO-------------------->
 
-    <div class="container">
+    <div class="container mb-5">
         <section class="promo">
             <h2 class="text-center mt-5">Speciale sconto del 10% se prenoti una vacanza in Italia</h2>
             <div class="card-promo-container">
@@ -232,7 +238,7 @@
 
         <!-------------------VANTAGGI-------------------->
 
-        <section class="vantaggi">
+        <section class="vantaggi mb-5">
             <h2 class="text-center mt-5 mb-4">Perchè scegliere Travel Me</h2>
 
             <div class="cards-container justify-content-center">
